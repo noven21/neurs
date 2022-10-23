@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+ 
+  }
+
+
+  .sidebar {
+    background: -webkit-gradient(linear, left top, right top, from(#a8e063), to(#56ab2f));
+    background: -o-linear-gradient(left, #a8e063, #56ab2f);
+    background: linear-gradient(to right, #a8e063, #56ab2f);
+
+    padding-top: 50px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    transition: 0.5s;
+    transition-property: left;
+    -webkit-box-shadow: 0px 5px 10px 0.2px rgb(13, 24, 10);
+    box-shadow: 0px -1px 8px 0.2px rgb(13, 24, 10);
+    text-decoration:none;
+  }
+  
+  .sidebar .profile_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar h4{
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  
+  .sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 60px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+    transition: transform 0.2s ease-out;
+    font-size: 15px;
+    text-decoration:none;
+    
+  }
+  
+  .sidebar a:hover{
+    
+    transform: translateX(3%);
+    color:black;
+    text-decoration:none;
+  }
+  
+  .sidebar i{
+    padding-right: 10px;
+    text-decoration:none;
+  }
+
+  label #sidebar_btn{
+    z-index: 1;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+    display:none;
+  }
+  
+  label #sidebar_btn:hover{
+    color: rgb(32, 160, 28);
+  }
+  
+  #check:checked ~ .sidebar{
+    left: -190px;
+  }
+  
+ div .error
+ {
+   display:none;
+ }
+  
+ div .error2
+ {
+   display:none;
+ }
+  
+  .content{
+
+    background: -webkit-gradient(linear, left top, right top, from(#e8ffcc), to(#bbc5b7));
+    background: -o-linear-gradient(left, #e8ffcc, #bbc5b7);
+    background: linear-gradient(to right, #e8ffcc, #bbc5b7);
+    height: 100%;
+    padding-left:25%;
+    padding-right:10%;
+    transition: 0.5s;
+    margin-top: -20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+  }
+
+  
+  
+  #check:checked ~ .content{
+    left:0;
+  }
+  
+  #check{
+    display: none;
+  }
+          
+  
+
+
+
+
+
+
+
+/*---------------------
+      body Section
+      (calendar)
+    -----------------------*/
+    
+  
+  
+    .body-item {
+        text-align: center;
+        background: #ffffff;
+        -webkit-box-shadow: 1px 5px 10px -5px rgb(79, 240, 35);
+        box-shadow: 1px 5px 10px -5px rgb(102, 219, 70);
+       
+      
+        height: 100%;
+        
+        
+        
+    }
+    .body-item .mi-title {
+        background: -webkit-gradient(linear, left top, right top, from(#a8e063), to(#56ab2f));
+        background: -o-linear-gradient(left, #a8e063, #56ab2f);
+        background: linear-gradient(to right, #a8e063, #56ab2f);
+        padding: 23px 0;
+      
+      
+      
+        
+    }
+    .body-item .mi-title h4 {
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+        
+    }
+    
+    
+    #calendar
+    {
+      padding-bottom:50px;
+        width: 75%;
+    }
+    
+
+    
+    #calendar{
+        animation: transitionIn 0.75s;
+    }
+    
+    #panel{
+        animation: transitionIn 0.75s;
+    }
+    
+    @keyframes transitionIn
+    {
+        from
+        {
+            opacity:0;
+            transform: translateX(-5px);
+        }
+        to
+        {
+            opacity:1;
+            transform: translateX(0px);
+        }
+    }
+
+
+
+
+    /* Large Mobile: 480px */
+    
+    @media only screen and (max-width: 767px) {
+        
+       
+    
+    
+    }
+    /* Small Mobile: 320px */
+    
+    @media only screen and (max-width: 479px) {
+     
+        .sidebar{
+            left: -250px;
+          }
+
+          #check:checked ~ .sidebar {
+            font-size: 20px;
+          
+          
+            left:0;
+          }
+
+          #check:checked ~ .content {
+            font-size: 20px;
+          
+          
+            
+          }
+        
+          
+          .content{
+            
+              padding-left: 10%;
+         
+          }
+          
+          label #sidebar_btn{
+            z-index: 1;
+            color: #fff;
+            position: fixed;
+            cursor: pointer;
+            left: 260px;
+            font-size: 30px;
+            margin: 25px 0;
+            transition: 0.5s;
+            transition-property: color;
+            display:inline;
+          }
+
+          
+    .body-item {
+     
+      
+        height: 100%;
+        
+        
+        
+    }
+
+    #calendar
+    {
+        padding-top:10px;
+        padding-bottom:30px;
+        width:100%;
+     
+       
+    }
+
+
+        
+    }

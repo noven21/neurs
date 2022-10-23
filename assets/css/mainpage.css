@@ -1,0 +1,420 @@
+
+
+html {
+	scroll-behavior: smooth;
+  }
+
+
+.navbar-default
+{
+    
+    border-style: none;
+   
+}
+
+#reg-area {
+    padding-top: 2%;
+    
+    }
+    .section-title {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .section-title h2 {
+        color: #0c832a;
+        font-size: 40px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    .set-bg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        height:100%;
+        background-image: url("../img/NEU.jpg");
+    
+        
+    }
+    
+    
+    
+    
+    /* buttons */
+    
+    .primary-btn {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0 12px;
+        color: #ffffff;
+        text-align: center;
+        width: 160px;
+        height: 46px;
+        text-decoration: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-position: 0 0, 0 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 2px;
+        background: -webkit-gradient(linear, left top, right top, from(#a8e063), to(#56ab2f));
+        background: -o-linear-gradient(left, #a8e063, #56ab2f);
+        background: linear-gradient(to right, #a8e063, #56ab2f);
+        -webkit-transition-duration: 1000ms;
+        -o-transition-duration: 1000ms;
+        transition-duration: 1000ms;
+        line-height: 45px;
+        position: relative;
+        z-index: 1;
+        -webkit-box-shadow: 0px 5px 20px -5px rgb(13, 24, 10);
+        box-shadow: 0px 5px 20px -5px rgb(13, 24, 10);
+    
+    
+    }
+    .primary-btn:after {
+        color: #fff;
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
+        transition-duration: 500ms;
+        background: #f67831;
+        background: -webkit-gradient(linear, left top, right top, from(#a8e063), to(#56ab2f));
+        background: -o-linear-gradient(left, #a8e063, #56ab2f);
+        background: linear-gradient(to right, #a8e063, #56ab2f);
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 1;
+    }
+    /* Preloder */
+    
+    #preloder {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 999999;
+        background: #000;
+    }
+    .loader {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -13px;
+        margin-left: -13px;
+        border-radius: 60px;
+        animation: loader 0.4s linear infinite;
+        -webkit-animation: loader 0.6s linear infinite;
+    }
+    @keyframes loader {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            border: 4px solid #36f46f;
+            border-left-color: transparent;
+        }
+        50% {
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+            border: 4px solid #23178f;
+            border-left-color: transparent;
+        }
+        80% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+            border: 4px solid #570d08;
+            border-left-color: transparent;
+        }
+    }
+    @-webkit-keyframes loader {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            border: 4px solid #36f46f;
+            border-left-color: transparent;
+        }
+        50% {
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+            border: 4px solid #23178f;
+            border-left-color: transparent;
+        }
+        80% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+            border: 4px solid #570d08;
+            border-left-color: transparent;
+        }
+    }
+  
+    /*---------------------
+      home(hero) Section
+    -----------------------*/
+    
+    .home-section {
+        height: 980px;
+        padding-top: 125px;
+        margin-top:-25px;
+        
+        
+    }
+    .home-text span {
+        font-size: 14px;
+        color: #f15d44;
+        text-transform: uppercase;
+        letter-spacing: 5spx;
+        font-weight: 600;
+    }
+    .home-text h1 {
+        font-size: 72px;
+        color: #ffffff;
+        font-weight: 600;
+        margin-top: 11px;
+        margin-bottom: 18px;
+    }
+    .home-text p {
+        color: #ffffff;
+        margin-bottom: 84px;
+    }
+    /*---------------------
+      Register Section
+    -----------------------*/
+    
+    
+    .register-text {
+        padding: 50px 70px 60px 70px;
+        background: #ffffff;
+        margin-right: -15px;
+            -webkit-box-shadow: 0px 5px 20px -2px rgb(13, 24, 10);
+        box-shadow: 0px 5px 20px -2px rgb(13, 24, 10);
+    }
+    .register-text .register-form label {
+        font-size: 14px;
+        color: #080202;
+        margin-bottom: 11px;
+    }
+    .register-text .register-form input,select {
+        -webkit-box-shadow: 0px 5px 10px -15px rgb(13, 24, 10);
+        box-shadow: 0px 5px 10px -10px rgb(13, 24, 10);
+        width: 100%;
+        height: 46px;
+        border: 1px solid #ebebeb;
+        
+        
+        padding-left: 10px;
+        font-size: 14px;
+        color: #9b9b9b;
+        margin-bottom: 18px;
+    }
+    
+    .register-text .register-form select {
+    
+        height: 46px;
+    
+    }
+    
+    .register-text .register-form .register-btn {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 600;
+        width: 100%;
+        background: -webkit-gradient(linear, left top, right top, from(#a8e063), to(#56ab2f));
+        background: -o-linear-gradient(left, #a8e063, #56ab2f);
+        background: linear-gradient(to right, #a8e063, #56ab2f);
+        border: none;
+        padding: 12px 0;
+        cursor: pointer;
+        margin-top: 20px;
+        -webkit-box-shadow: 0px 5px 10px -5px rgb(13, 24, 10);
+        box-shadow: 0px 5px 10px -5px rgb(13, 24, 10);
+    }
+  
+    
+    /*---------------------
+      Calendar Section 
+      (membership)
+    -----------------------*/
+    
+    .body-section {
+        padding-bottom: 50px;
+        padding-top:50px;
+        -webkit-box-shadow: 1px 5px 10px -5px rgb(32, 43, 28);
+        box-shadow: 1px 5px 10px -5px rgb(43, 56, 39);
+        background: -webkit-gradient(linear, left top, right top, from(#f7f6f4), to(#d1ccca));
+        background: -o-linear-gradient(left, #f7f6f4, #d1ccca);
+        background: -o-linear-gradient(left, #f7f6f4, #d1ccca);
+    }
+    
+    .body-item {
+        text-align: center;
+        background: #ffffff;
+        -webkit-box-shadow: 1px 5px 10px -5px rgb(79, 240, 35);
+        box-shadow: 1px 5px 10px -5px rgb(102, 219, 70);
+        padding-bottom: 50px;
+    }
+    .body-item .mi-title {
+        background: -webkit-gradient(linear, left top, right top, from(#a8e063), to(#56ab2f));
+        background: -o-linear-gradient(left, #a8e063, #56ab2f);
+        background: linear-gradient(to right, #a8e063, #56ab2f);
+        padding: 23px 0;
+        position: relative;
+    }
+    .body-item .mi-title h4 {
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    
+    .body-item .body-btn {
+        padding-top: 8px;
+        color: #ffffff;
+    }
+    
+    .body-item .body-btn:after {
+        opacity: 0;
+    }
+    
+    /*---------------------
+      footer Section
+    -----------------------*/
+
+    .site-footer {
+        background-color: #a8e063;
+          text-align: center;
+          margin: 0;
+          padding: 10px 0;
+      }
+      
+      #social-wrapper {
+          text-align: center;
+      }
+      
+      /*Social Media Icons*/
+      .social-wrapper {
+          text-align: center;
+      }
+      
+      .social-wrapper ul li {
+          display: inline;
+          margin: 0 5px;
+      }
+      
+      .twitter-icon,
+      .facebook-icon,
+      .instagram-icon
+      {
+          margin-top: .625em;
+          width: 40px;
+          height: 40px;
+          opacity: .6;
+  
+        border-radius: 25px;
+      }
+      
+      .twitter-icon:hover,
+      .facebook-icon:hover,
+      .instagram-icon:hover
+      {
+          opacity: 1.0;
+        
+      }
+      
+      .footer-nav p {
+          text-align: center;
+      }
+    /*-------------------------------- Responsive Media Styles --------------------------------*/
+    
+    @media only screen and (min-width: 1200px) {
+        .container {
+            max-width: 1170px;
+        }
+    }
+    /* Medium Device: 1200px */
+    
+    
+    @media only screen and (max-width: 991px) {
+    
+        
+    
+        .register-text {
+            margin-right: 0;
+        }
+    }
+    /* Tablet Device: 768px */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .nav-menu .mainmenu ul li {
+            margin-right: 12px;
+        }
+        
+        .register-pic img {
+            height: auto;
+            min-width: 100%;
+        }
+        .home-section {
+            height: 100%;
+            padding-top: 125px;
+            padding-bottom: 50px;
+        }
+    }
+    /* Large Mobile: 480px */
+    
+    @media only screen and (max-width: 767px) {
+        
+        .home-text h1 {
+            font-size: 55px;
+        }
+        .home-section {
+            height: 100%;
+            padding-top: 125px;
+            padding-bottom: 50px;
+        }
+    
+    
+    }
+    /* Small Mobile: 320px */
+    
+    @media only screen and (max-width: 479px) {
+        .home-text h1 {
+            font-size: 52px;
+        }
+        .register-text {
+            padding: 50px 35px 60px 35px;
+        }
+    
+        .bd-text .tag-share .tags a {
+            margin-bottom: 5px;
+        }
+        .gallery-controls li {
+            margin-right: 10px;
+        }
+    
+        #pad
+        {
+            padding-top: 80px;
+        }
+    
+        .primary-btn
+        {
+            width: 150px;
+        }
+    
+        .home-section {
+            height: 100%;
+            padding-top: 125px;
+            padding-bottom: 50px;
+        }
+    
+    }
+
+
+    
+
+    
