@@ -78,6 +78,7 @@ NEURS is a reservation web application for students and faculties of New Era Uni
 - jQuery - is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation.
 - Bootstrap - is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
 - FullCalendar API - is a lightweight yet powerful and developer-friendly JavaScript library to create flexible, draggable event calendars on the modern web app.
+  -Javascript - is a programming language that is one of the core technologies of the World Wide Web.
 - CSS - is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents.
 - SQL - is a domain-specific language used in programming and designed for managing data held in a relational database management system.
 - phpMyAdmin -is a free and open source administration tool for MySQL and MariaDB.
