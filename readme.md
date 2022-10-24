@@ -70,3 +70,15 @@ NEURS is a reservation web application for students and faculties of New Era Uni
 6. Insert dummy information in tables of database
    ![dummy-data](https://github.com/noven21/neurs/blob/master/gitimgs/dummy-data.png)
 7. Open this link http://localhost/NEURS/index.php/main in web browser this link served as index page.
+
+## Builth with
+
+- Codeigniter - is an open-source software rapid development web framework, for use in building dynamic web sites with PHP.
+- PHP- is a general-purpose scripting language geared toward web development.
+- jQuery - is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation.
+- Bootstrap - is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+- FullCalendar API - is a lightweight yet powerful and developer-friendly JavaScript library to create flexible, draggable event calendars on the modern web app.
+- CSS - is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents.
+- SQL - is a domain-specific language used in programming and designed for managing data held in a relational database management system.
+- phpMyAdmin -is a free and open source administration tool for MySQL and MariaDB.
+- XAMPP - is a free and open-source cross-platform web server solution stack package developed by Apache Friends.
