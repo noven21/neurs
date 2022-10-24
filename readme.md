@@ -22,3 +22,13 @@ NEURS is a reservation web application for students and faculties of New Era Uni
 | Reservation Page                                                                   |
 
 |![Reservation](https://github.com/noven21/neurs/blob/master/gitimgs/reservation-page.png)
+
+---
+
+### Admin Features
+
+| Admin Reservation Approval Page                                                                            | Admin Items Management Page                                                                     |
+| ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| ![Admin-approval](https://github.com/noven21/neurs/blob/master/gitimgs/admin-reservation-pending-page.png) | ![Admin-item](https://github.com/noven21/neurs/blob/master/gitimgs/admin-items-page.png)        |
+| Admin Rooms Management Page                                                                                | Admin Account Management Page                                                                   |
+| ![Admin-rooms](https://github.com/noven21/neurs/blob/master/gitimgs/admin-rooms-page.png)                  | ![Admin-accounts](https://github.com/noven21/neurs/blob/master/gitimgs/admin-accounts-page.png) |
