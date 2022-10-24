@@ -49,7 +49,7 @@ CREATE TABLE `tbl_accounts` (
 --
 
 INSERT INTO `tbl_accounts` (`AID`, `Username`, `Password`, `FirstName`, `LastName`, `Birthday`, `Gender`, `Address`, `Email`, `profilePicture`, `isActive`, `ModifiedBy`, `DateModified`, `UserType`) VALUES
-(1, 'admin', 'admin', 'Junex Xd', 'Rainin', '0000-00-00', '', NULL, NULL, NULL, 1, '', '', 'admin'),
+(1, 'admin', 'admin', 'Noven', 'Latigo', '0000-00-00', '', NULL, NULL, NULL, 1, '', '', 'admin'),
 (2, 'user1', '1234567', 'ONie', '88', '1998-02-21', 'Male', 'val city PH', 'onienie19@gmail.com', NULL, 1, '', '', 'user'),
 (3, 'user2', '123456', 'Akoko', 'Jskske', '2020-05-24', 'Male', NULL, NULL, NULL, 1, '', '', 'user'),
 (4, 'user3', '123456', 'samp12', 'sam', '2020-05-24', 'Male', '', '', NULL, 1, '', '', 'user'),
