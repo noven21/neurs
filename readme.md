@@ -37,11 +37,17 @@ NEURS is a reservation web application for students and faculties of New Era Uni
 
 #### User features
 
--[x] User can register and login -[x] User can reserve rooms and items -[x] User can edit their profile informations -[x] User can view the existing reservation details
+- [x] User can register and login
+- [x] User can reserve rooms and items
+- [x] User can edit their profile informations
+- [x] User can view the existing reservation details
 
 #### Admin features
 
--[x] Admin can approve User Reservations -[x] Admin can edit quantity and informations of Reservation Rooms and Items -[x] Admin can view the existing reservation details -[x] Admin can Manage the users account
+- [x] Admin can approve User Reservations
+- [x] Admin can edit quantity and informations of Reservation Rooms and Items
+- [x] Admin can view the existing reservation details
+- [x] Admin can Manage the users account
 
 ## Potential Improvements
 
